@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    user-select: none;
+}
+.navbar{
+    background-color: #2d2d29;
+    
+}
+.navbar-brand, .navbar-text{
+    font-size: x-large;
+    letter-spacing: 0.2rem;
+}
+.navbar-brand, .nav-link, #active, .navbar-text{
+    color:white;
+}
+
+.navbar-brand:hover, .nav-link:hover, #active:hover, .navbar-text:hover{
+    color:crimson;
+}
+.card{
+    display: flex;
+    justify-content: space-around;
+    max-width: 1400px;
+    
+}
+
+.card img{width: 100%;
+    
+}
+
+.texto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+    gap:20px;
+}
+.texto__items{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+       
+}
+.btn-crimson{
+    background-color: crimson;
+    color: white;
+    width: 35%;
+}
+.btn-crimson:hover{
+    color:black;
+    font-weight: bold;
+}
+/*--------------form-------------*/
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #2d2d29;
+    color:white;
+    gap:15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+   
+}
+.form input, .form textarea{
+    border-radius: 4px;
+    text-align: center;
+}
+.form input:hover, .form textarea:hover{
+    border-bottom:2px solid crimson;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+/*-----------------------especialistas----------------*/
+.especialistas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    margin-bottom: 35;
+}
+.staff{
+    gap:25px;
+}
+.staff h3{
+    text-align: center;
+}
+.staff h3:hover{
+    color:crimson;
+    letter-spacing: 0.2rem;
+}
+
+.grupo{
+    text-align: justify;
+    box-shadow: 1px 3px 13px #b1b1b1;
+}
+.grupo img{
+    max-height:300px;
+    padding-left:0;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+
+.esp{
+    width: fit-content;
+}
+
+.promociones{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap ;
+    text-align: center;
+    gap:15px;
+}
+.promociones h3:hover{
+    color: crimson;
+    letter-spacing: 0.2rem;
+}
+.promociones h4:hover{
+    background-color: crimson;
+}
+.promociones h4:hover{
+    background-color: #2d2d29;
+    color: crimson;
+    letter-spacing: 0.2rem;
+}
+
+.hr{
+    width: 80vw;
+  }
+ 
+.footer{
+    margin-top: 30px;
+    height: 100px;
+    background-color: #2d2d29;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.foo{
+    gap:90px;
+}
+
