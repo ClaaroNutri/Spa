@@ -30,7 +30,16 @@
 .card img{width: 100%;
     
 }
-
+.glide__arrow{
+    color:black;
+    font-size: 28px;
+    font-weight: bolder;
+    border:2px solid black;
+   margin-top: -10px;
+}
+.glide__arrow:hover{
+    color:black;
+}
 .texto{
     display: flex;
     align-items: center;
@@ -160,3 +169,8 @@
     gap:90px;
 }
 
+@media (max-width:460px) {
+    .glide__arrow{
+        margin-top: -23px;
+    }
+}
